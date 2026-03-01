@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+        <title>Ejercicio 1: de JAVASCRIPT + HTML + CSS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Ejercicios Prácticos de HTML + CSS + JS</h1>
+
+            <div class="ejercicio">
+                <h2>
+                    Ejercicio 1: Calculadora de promedio de notas
+                </h2>
+
+                <p>
+                    Fórmula: promedio = (nota1 + nota2 + nota3) / 3
+                </p>
+
+                <div class="input-group">
+                    <label for="nota1">
+                        Nota 1:
+                    </label>
+                    <input type="number" name="nota1" id="nota1" placeholder="Ej: 4.5">
+                </div>
+
+                <div class="input-group">
+                    <label for="nota2">
+                        Nota 2:
+                    </label>
+                    <input type="number" name="nota2" id="nota2" placeholder="Ej: 3.7">
+                </div>
+
+                <div class="input-group">
+                    <label for="nota3">
+                        Nota 3:
+                    </label>
+                    <input type="number" name="nota3" id="nota3" placeholder="Ej: 5.0">
+                </div>
+
+                        <button id="calcular-promedio">
+                    Calcular promedio
+                </button>
+
+                    <div id="resultadoPromedio" class="resultado">
+                    <h3>
+                        Tu promedio es:
+                    </h3>
+                    <p id="valorPromedio">
+                        <b><u>RESULTADO PROMEDIO</u></b>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="funciones.js"></script>
+    </body>
+    </html>
